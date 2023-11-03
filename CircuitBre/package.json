@@ -1,0 +1,15 @@
+{
+  "name": "circuitbre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "CircuitBre.js",
+  "scripts": {
+    "start": "node CircuitBre.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

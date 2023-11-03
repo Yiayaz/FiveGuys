@@ -1,0 +1,12 @@
+{
+  "name": "load_balancer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "LoadBalancer.js",
+  "scripts": {
+    "start": "node LoadBalancer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

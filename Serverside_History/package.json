@@ -1,0 +1,14 @@
+{
+    "name": "serverside_history",
+    "version": "1.0.0",
+    "description": "Stub for Serverside_History service",
+    "main": "ServersideHistory.js",
+    "scripts": {
+      
+      "start": "node ServersideHistory.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  

@@ -1,0 +1,12 @@
+{
+  "name": "api_gateways",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ApiGateways.js",
+  "scripts": {
+    "start": "node ApiGateways.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

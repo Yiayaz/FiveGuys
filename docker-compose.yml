@@ -1,0 +1,187 @@
+version: '3'
+
+services:
+  streamingmediaservice:
+    image: fiveguys4399/streamingdediaservice
+    ports:
+      - "3004:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  financialservice:
+    image: fiveguys4399/financialservice
+    ports:
+      - "3002:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  platformservice:
+    image: fiveguys4399/platformservice
+    ports:
+      - "3003:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  subscriptionservice:
+    image: fiveguys4399/subscriptionservice
+    ports:
+      - "3005:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  adminaccountservice:
+    image: fiveguys4399/adminaccountservice
+    ports:
+      - "3001:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  user_account:
+    image: fiveguys4399/useraccount
+    ports:
+      - "3009:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  creator_account:
+    image: fiveguys4399/creatoraccount
+    ports:
+      - "3006:3000" 
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  userside_history:
+    image: fiveguys4399/usersidehistory
+    ports:
+      - "3010:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  serverside_history:
+    image: fiveguys4399/serversidehistory
+    ports:
+      - "3008:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  creatorside_history:
+    image: fiveguys4399/creatorsidehistory
+    ports:
+      - "3007:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  ingestionserver:
+    image: fiveguys4399/ingestionservice
+    ports:
+      - "3012:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  loadbalancer:
+    image: fiveguys4399/loadbalancer
+    ports:
+      - "3013:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+  
+  apigateways:
+    image: fiveguys4399/apigateways
+    ports:
+      - "3011:3000"
+    deploy: 
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  usersidemanagerservice:
+    image: fiveguys4399/usersidemanagerservice
+    ports:
+      - "3014:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+
+  usersideservice:
+    image: fiveguys4399/usersideservice
+    ports:
+      - "3015:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  serversidemanagerservice:
+    image: fiveguys4399/serversidemanager
+    ports:
+      - "3020:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  serverside:
+    image: fiveguys4399/serverside
+    ports:
+      - "3019:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  creatorsideman:
+    image: fiveguys4399/creatorsideman
+    ports:
+      - "3018:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  creatorside:
+    image: fiveguys4399/creatorside
+    ports:
+      - "3017:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+  circuitbre:
+    image: fiveguys4399/circuitbre
+    ports:
+      - "3016:3000"
+    deploy:
+      replicas: 5
+    networks:
+      - fiveguysnet
+
+networks:
+  fiveguysnet:
+  

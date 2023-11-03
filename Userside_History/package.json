@@ -1,0 +1,13 @@
+{
+    "name": "userside_history",
+    "version": "1.0.0",
+    "description": "Stub for Userside_History service",
+    "main": "UsersideHistory.js",
+    "scripts": {
+      "start": "node UsersideHistory.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  

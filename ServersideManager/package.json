@@ -1,0 +1,15 @@
+{
+  "name": "serversidemanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ServersideManagerService.js",
+  "scripts": {
+    "start": "node ServersideManagerService.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CC",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "financialservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "FinancialService.js",
+  "scripts": {
+    "start": "node FinancialService.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

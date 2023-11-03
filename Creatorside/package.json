@@ -1,0 +1,15 @@
+{
+  "name": "creatorside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Creatorside.js",
+  "scripts": {
+    "start": "node Creatorside.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

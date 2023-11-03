@@ -1,0 +1,12 @@
+{
+    "name": "creatorside_history",
+    "version": "1.0.0",
+    "description": "Stub for Creatorside_History service",
+    "main": "CreatorsideHistory.js",
+    "scripts": {
+      "start": "node CreatorsideHistory.js"},
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  

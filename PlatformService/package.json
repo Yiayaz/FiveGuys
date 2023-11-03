@@ -1,0 +1,12 @@
+{
+  "name": "platformservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "PlatformService.js",
+  "scripts": {
+    "start": "node PlatformService.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

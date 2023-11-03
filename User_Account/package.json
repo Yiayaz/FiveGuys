@@ -1,0 +1,13 @@
+{
+    "name": "user_account",
+    "version": "1.0.0",
+    "description": "Stub for User_Account service",
+    "main": "UserAccount.js",
+    "scripts": {
+      "start": "node UserAccount.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  
